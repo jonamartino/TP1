@@ -550,9 +550,7 @@ img{
     vertical-align:middle
 }
 
-
 #checkersContainer{
-    
     margin-left:auto;
     margin-right:auto
 }
@@ -566,7 +564,7 @@ img{
     height:100%;
     position:relative;
     z-index:0;
-    margin-top:30px;
+    margin-top:10px;
     height:490px;
     width:490px;
 }
@@ -614,7 +612,15 @@ img{
     position:relative;
   }
 
-
+#turnContainer{
+    margin-bottom:10px
+}
+#turnText{
+    display:inline-block;
+    font-size:21px;
+    padding:10px 45px;
+    color:#d4707a;
+}
 #buttonContainer{
     margin-bottom:10px
 }
