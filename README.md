@@ -7,7 +7,11 @@ Enlace juego: [Mini Damas](https://jonamartino.github.io/TP1/index.html)
 Enlace repositorio: [github/jonamartino](https://github.com/jonamartino/TP1)                                                        
 Contacto: [gmail/jonamartino](mailto:jonamartino@gmail.com)
 
-
+## Detalles
+ Para probar la funcionalidad de las consultas PHP, debido a que se utiliza la funcion Fetch, se tuvo que instalar localmente la APP XAMPP
+ de otra manera no se logró que la respuesta del servidor sea 200.                                                                     
+ Segun [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+ "GitHub Pages does not support server-side languages such as PHP, Ruby, or Python."
 ## Consignas
 
 **TP1: Trabajo Práctico 1**
@@ -69,10 +73,23 @@ Esta semana se evaluará:
 •	Correcto y frecuente uso de commits de Git.
 •	Correcta visualización del sitio en Github Pages.
 •	Colaboración con los compañeros de clase para mejorar los conocimientos y avanzar como grupo.
-
-
 ```
 
+**TP4: Formulario de Contacto**
+
+```
+Continuar el proyecto desarrollado en el TP3, agregando un formulario de contacto que debe contener los campos: 
+- Nombre Completo
+- Email
+- Comentario
+
+Agregar un botón al final del formulario que diga “enviar” y que al presionar se realice una consulta HTTP utilizando una API pública 
+enviando los datos cargados en los campos del formulario (usar método Fetch de JS para la consulta/request). La url o API para hacer la consulta puede ser cualquiera, 
+y no es necesario que devuelva una respuesta correcta.
+
+El formulario de contacto debe visualizarse correctamente en cualquier dispositivo (diseño responsivo), y se recomienda hacerlo en una nueva página HTML, manteniendo la estética
+del juego de Damas.
+```
 
 ## Lista de commits
 
@@ -96,7 +113,26 @@ Author: jonamartino jonamartino@gmail.com
 Date:   Mon Jul 12 01:37:36 2021 -0300
 Agregadas la funcionalidades de deseleccion, turnos, y mensaje de quien tiene que mover la ficha
 ```
-
+```
+Author: jonamartino <jonamartino@gmail.com>
+Date:   Mon Jul 19 02:38:02 2021 -0300
+error form.html v1
+```
+```
+Author: jonamartino <jonamartino@gmail.com>
+Date:   Mon Jul 19 02:34:27 2021 -0300
+prueba error en contacto
+```
+```
+Author: jonamartino <jonamartino@gmail.com>
+Date:   Mon Jul 19 02:26:38 2021 -0300
+Merge branch 'main' of https://github.com/jonamartino/TP1
+```
+```
+Author: jonamartino <jonamartino@gmail.com>
+Date:   Mon Jul 19 02:26:09 2021 -0300
+Agregada pagina de formulario + conexion con archivo php para realizar las consultas
+```
 
 ## A mejorar
 -	Mensaje de quien tiene el turno
