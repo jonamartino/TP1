@@ -698,6 +698,6 @@ textarea{
     width: 100px;
     color:#fff;
     border:1px solid #84c5f3;
-    text-shadow:0 0 3px #333;
+    text-shadow:0 0 2px #333;
     cursor:pointer;
 }
